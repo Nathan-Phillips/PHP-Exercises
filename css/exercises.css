@@ -12,6 +12,10 @@ body {
   max-width: 960px;
   background-color: #b7bdca;
 }
+pre {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+}
 section {
   font-weight: 600;
   margin: 30px 0 0 0;

@@ -121,5 +121,47 @@ either by normal HTML tags, blank lines in a file, or from PHP.</p>
         ?>
         </div>
 
+        <section>Exercise 18</section>
+        <p>Write a PHP script to delay the program execution for the given number of seconds.</p>
+        <div class="answer">
+
+        <?php
+            
+            $delay = 2; //Delay time in seconds
+
+            echo 'This script started at ' . date('h:i:s a') . '<br>';
+                sleep($delay);
+            echo 'And after a delay of ' . $delay . ' seconds, it ended at ' . date('h:i:s a');
+
+        ?>
+        </div>
+
+        <section>Exercise 19</section>
+        <p>Arithmetic operations on character variables : $d = 'A00'. Using this variable print the numbers A01 through A05.</p>
+        <div class="answer">
+
+        <?php
+            
+            $d = 'A00';
+
+            for($i = 0; $i < 5; $i++){
+                echo ++$d . '<br>';
+            }
+
+        ?>
+        </div>
+
+        <section>Exercise 20</section>
+        <p>Write a PHP script to get the last occurred error.</p>
+        <div class="answer">
+
+        <?php
+            
+            echo '<pre>'; print_r(error_get_last()); '</pre>';
+
+        ?>
+        </div>
+
+
     </body>
 </html>
