@@ -69,6 +69,12 @@ table {
   background-color: #dce5ec;
 }
 td {
-  border: 1px #3f6586 solid;
+  border: 2px #b7bdca solid;
   padding: 4px 6px;
+}
+.odd {
+  background-color: #C5DAC1;
+}
+.even {
+  background-color: #BCD0C7;
 }
