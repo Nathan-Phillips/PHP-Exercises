@@ -67,5 +67,22 @@
         ?>
         </div>
 
+        <section>Exercise 04</section>
+        <p>Delete an element from the PHP array. After deleting the element, integer keys must be normalised.</p>
+        <div class="answer">
+            
+        <?php       
+            $x = array(1, 2, 3, 4, 5);
+        
+            echo '<pre>' . var_dump($x) . '</pre>';
+
+            unset($x[3]);
+            array_values($x);
+
+            echo '<pre>' . var_dump($x) . '</pre>';
+
+        ?>
+        </div>
+
     </body>
 </html>
